@@ -3,13 +3,16 @@ package lab3;
 public class Main {
     public static void main(String[] args) {
         CustomStringMethods methods = new CustomStringMethods();
-        String str = methods.funnyString("computer", 3);
-        System.out.println(str);
-        str = methods.funnyString("computer", 0);
-        System.out.println(str);
-        str = methods.funnyString("computer", 7);
-        System.out.println(str);
-        str = methods.funnyString("apples", 1);
-        System.out.println(str);        
+
+        System.out.println(methods.longerThan("hello world", 10));
+        System.out.println(methods.funnyString("apcsp", 3));
+        System.out.println(methods.halvesReversed("windows"));
+        System.out.println(methods.pigLatin("programming"));
+        System.out.println(methods.removeCharacter("hello wrorld", 7));
+        System.out.println(methods.insertAt("thisis a test", " ", "s"));
+        System.out.println(methods.endUp("lower upper", 5));
+        System.out.println(methods.yellOrWhisper("tESTING"));
+        System.out.println(methods.starBetween("stars"));
+
     }
 }
